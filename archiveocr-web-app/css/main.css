@@ -1,0 +1,104 @@
+#noresults, #loading {
+  display: none;
+  background-color: #f7ebc6;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+body {
+  margin: 2rem;
+  background:url(../images/IMG_0401.JPEG);
+  background-repeat: repeat-y;
+}
+.header {
+  display: grid;
+}
+.header h1 {
+  color: rgb(55,55,55);
+  font-size: 3em;
+  padding: 0.3em;
+  font-weight: bold;
+}
+
+.site-title {
+  padding: 0.3em;
+  place-self: center;
+  font-weight: bold;
+  background-color: #f7ebc6;
+  border-bottom: 3px solid black;
+  border-radius: 50% 20% / 10% 40%;
+  text-align: center;
+}
+
+.user-input {
+  padding-top: 0.3em;
+  place-self: center;
+}
+
+label {
+  border-bottom: 1px black solid;
+  background-color: white;
+  color: #373737;
+  padding: 0.5em;
+}
+
+.header input {
+  place-self: center;
+}
+
+h1, h2, input, p {
+  font-weight: 400;
+  font-family: Georgia;
+  margin: 1rem 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input, p {
+  font-size: 1rem;
+}
+
+input {
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 7.5rem;
+  vertical-align: top;
+  margin: 0 2rem 2rem 0;
+}
+
+#results {
+  display: grid;
+  background-color: #f7ebc6;
+  border-radius: 1em 1em 0 0;
+}
+
+#results p {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#results p:first-child {
+  text-align: center;
+  font-weight: bold;
+}
+
+.result h2 {
+  font-variant: all-petite-caps;
+  text-align: center;
+  border-top: 7px dotted #918663;
+  padding-top: 15px;
+}
