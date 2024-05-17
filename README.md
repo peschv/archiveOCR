@@ -5,8 +5,13 @@ The aim is to find articles among 10,000+ images, prioritizing relevant filename
 
 ## How it works:
 User uploads image to an S3 bucket. User runs Java program to run Amazon Textract on the image; this requires specifying the image filename at runtime. The image is converted into text using Textract, with the text being sent as a JSON file to a second S3 bucket. An AWS Lambda (s3-to-opensearch) automatically sends this file for indexing to Amazon OpenSearch. 
+![General System Architecture](archiveOCR-sys-arch.png)
+
 
 In the front-end web application, user enters a search query of >2 characters. An API Gateway connects to a second Lambda (opensearch-query) which queries the OpenSearch index for any files containing text that matches the query term. The web application displays the results, i.e. either no matching search terms found, or the filename and text contents that were saved in the JSON file. 
+
+![Web Application Architecture](archiveOCR-app-arch.png)
+
 
 ### AWS Lambdas
 - s3-to-opensearch
