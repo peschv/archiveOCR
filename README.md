@@ -2,7 +2,7 @@
 
 |   |   |
 |---|---|
-<img src="archiveocr-web-app/images/screenshot-homepage.png" height="260" width=auto>   |   ![Gif of web application in action](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGN4MmppMnAwZ2oxdjQ0NGg3bGNhZnRoeWRmamRhOHMxajBqN2VoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yfXNObKnh7HPBWkonH/giphy.gif) 
+<img src="archiveocr-web-app/images/screenshot-homepage.png" height="auto" width="400">   |   ![Gif of web application in action](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGN4MmppMnAwZ2oxdjQ0NGg3bGNhZnRoeWRmamRhOHMxajBqN2VoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yfXNObKnh7HPBWkonH/giphy.gif) 
 
 
 Using AWS Services, converts an image archive of newspaper articles on microfilm into searchable text, with a front-end web application for the search function.
